@@ -1,0 +1,26 @@
+¿Como funciona JExchange?
+
+¡Muy fácil! Si usted es una persona que busca empleo, debes presionar
+el botón que dice "Seeker". Tendrá que llenar cierta información personal, así pues
+la empresa que desee contactarte tenga una referencia más óptima de ti.
+
+En cambio, si representa una compañía, diríjase al botón de "Finder", el cuál es un
+procedimiento bastante similar al del "Seeker", tan sólo hay que llenar los campos que se piden.
+
+Para ambos "Seeker" y "Finder", al dar click en el botón "Enviar" de la aplicación, se le proporcionará
+una contraseña numérica con la que, posteriormente usted podrá modificar o eliminar su post. Esta contraseña
+aparecerá de forma rápida una vez que usted envíe su información, por lo que antes que usted envíe sus datos
+se le recomienda tener a la mano un papel y lápiz para escribir su contraseña.
+
+De haber extraviado su contraseña, se borrará en treinta días. Pero no se alarme, podrá dar de alta su información
+de nueva cuenta. Tenga en consideración que con sólo una vez que ingrese sus datos, será suficiente para que pueda
+ser visualizado dentro de la aplicación, por lo que se sugiere que no sature de ingresos de datos.
+
+Ahora si, su información está posteada en la pizarra, también llamada "Board", aquí podrán ver todos los
+post de las personas que han ingresado a JExchange, sea buscador de empleo o empresa, esto facilitará ponerse
+en contacto con la persona/empresa de su agrado.
+
+En el botón de "Contáctanos" encontrará la página web oficial de JExchange, por lo que podrá buscar más información
+de la aplicación, así como soporte técnico del mismo. Agradecemos su uso de esta aplicación.
+
+¡Que disfrute JExchange!

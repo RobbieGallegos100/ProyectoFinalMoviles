@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_light"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SeekerPost">
+
+    <TextView
+        android:id="@+id/tvSeeker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:text="Seeker post"
+        android:textColor="@android:color/background_dark"
+        android:textSize="56sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/etNombre"
+                android:inputType="textCapSentences|text"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Nombre(s):" />
+
+            <EditText
+                android:id="@+id/etApellidos"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textCapSentences|text"
+                android:hint="Apellidos:" />
+
+            <EditText
+                android:id="@+id/etFecha"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="date"
+                android:hint="Fecha de nacimiento:" />
+
+            <EditText
+                android:id="@+id/etDireccion"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textCapSentences|textMultiLine"
+                android:hint="Dirección:" />
+
+            <EditText
+                android:id="@+id/etCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="35dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Correo electrónico:"
+                android:inputType="textEmailAddress" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_marginBottom="35dp"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:id="@+id/rgSexo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp">
+
+                    <TextView
+                        android:id="@+id/tvSexo"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_weight="1"
+                        android:text="Sexo:" />
+
+                    <RadioButton
+                        android:id="@+id/rbFemenino"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="1"
+                        android:text="Femenino" />
+
+                    <RadioButton
+                        android:id="@+id/rbMasculino"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Masculino" />
+
+                </RadioGroup>
+
+                <EditText
+                    android:id="@+id/etTelefono"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="phone"
+                    android:hint="Número de teléfono:" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/etEstudios"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textCapSentences|textMultiLine"
+                android:hint="Estudios:" />
+
+            <EditText
+                android:id="@+id/etExperiencia"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textCapSentences|textMultiLine"
+                android:hint="Experiencia laboral" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="113dp"
+                android:layout_marginBottom="35dp"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:id="@+id/rgTransporte"
+                    android:layout_width="wrap_content"
+                    android:layout_height="95dp">
+
+                    <TextView
+                        android:id="@+id/tvAuto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Transporte actual:" />
+
+                    <RadioButton
+                        android:id="@+id/rbAuto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_weight="1"
+                        android:text="Automóvil propio" />
+
+                    <RadioButton
+                        android:id="@+id/rbPublico"
+                        android:layout_width="wrap_content"
+                        android:layout_height="14dp"
+                        android:layout_weight="1"
+                        android:text="Transporte público" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginBottom="35dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:id="@+id/rgIngles"
+                    android:layout_width="324dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/tvIngles"
+                        android:layout_width="129dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Manejo de inglés:" />
+
+                    <RadioButton
+                        android:id="@+id/rbMucho"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Menos de 95%" />
+
+                    <RadioButton
+                        android:id="@+id/rbMedio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Menos del 75%" />
+
+                    <RadioButton
+                        android:id="@+id/rbPoco"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Menos de 50%" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/etAptitudes"
+                android:layout_marginBottom="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textCapSentences|textMultiLine"
+                android:hint="Aptitudes personales:" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnRegresar"
+                    android:background="@android:color/white"
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Regresar" />
+
+                <Button
+                    android:id="@+id/btnEnviar"
+                    android:background="@android:color/white"
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Enviar" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

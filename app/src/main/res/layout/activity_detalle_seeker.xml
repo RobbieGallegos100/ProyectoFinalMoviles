@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:layout_height="match_parent"
+    tools:context=".DetalleSeeker">
+
+    <TextView
+        android:id="@+id/tvDetalleSeeker"
+        android:layout_width="match_parent"
+        android:layout_height="398dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:text="Detalle Seeker"
+        android:textSize="56sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Nombre:"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txtApellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Apellido:"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvApellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apellido"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txtFecha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Fecha:"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvFecha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fecha"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txtSexo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Sexo:"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvSexo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sexo"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txtDireccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Dirección:"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvDireccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Direccion"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txtCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Correo:"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Correo"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txtTelefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Teléfono:"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvTelefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefono"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txtEstudios"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Estudios:"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvEstudios"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Estudios"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txtExperiencia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Experiencia:"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvExperiencia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Experiencia"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txtTransporte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Transporte:"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvTransporte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Transporte"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txtIngles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Inglés:"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvIngles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ingles"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txtAptitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Aptitudes:"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvAptitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Aptitudes"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="234dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnRegresar"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Regresar" />
+
+        <Button
+            android:id="@+id/btnEliminar"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Eliminar" />
+    </LinearLayout>
+
+</LinearLayout>
